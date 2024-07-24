@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
     home: "Domů",
     about: "O nás",
     services: "Služby",
-    portfolio: "Portfolio",
+    portfolio: "Galerie",
     team: "Tým",
     contact: "Kontakt",
   };
