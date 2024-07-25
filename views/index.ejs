@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>CLEAN FORCE ONE</title>
+  <title>CLEAN FORCE ONE - Čistění vzduchotechniky</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -14,7 +14,10 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Oxanium:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -29,7 +32,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  
+
 </head>
 
 <body>
@@ -54,7 +57,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Kontaktní formulář</a>
+      <a href="#contact" class="get-started-btn scrollto">Kontaktní formulář</a>
 
     </div>
   </header><!-- End Header -->
@@ -114,23 +117,37 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/gallery/YGe2tZ.jpeg" class="img-fluid-my" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            <h3><%= navText.about %></h3>
+            <p>
+              Společnost <strong>Clean Force One</strong> byla založena v květnu 2008 a spontánně navázala na zkušenosti z oblasti vzduchotechniky a údržby o ni.
             </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            <p>
+              <strong>Proč si vybrat právě nás?</strong>
+            </p>
+            <ul class="fst-italic">
+              <li><i class="ri-thumb-up-line"></i> Jsme v oboru již <span id="yearsPassed"></span> let</li>
+              <li><i class="ri-thumb-up-line"></i> Práci se věnujeme s péčí</li>
+              <li><i class="ri-thumb-up-line"></i> Pracujeme v noci i o víkendech</li>
+              <li><i class="ri-thumb-up-line"></i> Máme spokojené zákazníky</li>
+              <li><i class="ri-thumb-up-line"></i> Cenovou nabídku Vám vypracujeme po obhlídce a posouzení skutečného stavu znečištění vzduchotechniky</li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+              <strong>Jak čistíme potrubí?</strong>
             </p>
+            <ul class="fst-italic">
+              <li><i class="ri-bard-line"></i> <strong>Suché</strong> pomocí technologie LIFA AIR (rotační kartáče, ventilárory, průmyslové vysavače)</li>
+              <li><i class="ri-bard-line"></i> <strong>Mastné</strong> ekologicky nezávadnými čistícími přípravky, rozpouštědly a vodou pod tlakem (WAP)</li>
+            </ul>
+            <p>
+              <strong>Vyčistíme všechno co patří ke vzduchotechnice</strong>
+            </p>
+            <ul class="fst-italic">
+              <li><i class="ri-arrow-drop-right-fill"></i> Strojovny vzduchotechniky, rekuperátory, tlumiče hluku, požární a regulační klapky, výustky, ventilátory, digestoře, tukové filtry a další</li>
+              <li><i class="ri-arrow-drop-right-fill"></i> <strong>Prachové filtry</strong> dodáme a vyměníme. <strong>Tukové filtry</strong> vyrobíme nebo zrepasujeme.</li>
+            </ul>
           </div>
         </div>
 
@@ -143,14 +160,14 @@
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bondy_red_transparent.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/fenix_transparent.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Ceske_radiokomunikace_transparent.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/hotel_clarion_transparent.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/hotel_meritum_transparent.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/lazne_podebrady_transparent.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/lazne_priessnitz_transparent.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/CVUT_SUZ_transparent.png" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -163,7 +180,32 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="image col-lg-6" style='background-image: url("assets/img/features.jpg");' data-aos="fade-right"></div>
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/gallery/pYxifE.jpeg" class="img-fluid-my" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-2 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>Proč vůbec čistit vzduchotechniku (VZT)...</h3>
+            <p>
+              Kvalita vzduchu v interiérech má významný vliv na zdraví a pohodlí Vašich zaměstnanců i zákazníků. 
+              VZT je častým důvodem nejenom zdravotních problémů.
+              Zanášení VZT se stává živnou půdou pro bakterie, plísně nebo houby.
+              Vyčištěním a dezinfekcí vzduchotechniky dojde k likvidaci mikroorganizmů, které Vám znepříjemňují život.
+            </p>
+            <p>
+              Zaprášená, anebo mastná VZT je nebezpečná i z požárního hlediska,  
+              protože některé druhy prachu jsou nebezpečnou výbušninou. 
+              A v neposlední řadě je zaprášené a mastné potrubí tzv. "rychlým přepravcem ohně" po celé budově.
+            </p>
+            <p>
+              Vyčištění vzduchotechnického potrubí je významným krokem ke zvýšení kvality vzduchu na Vašem pracovišti 
+              a ke splnění norem BOZP.
+            </p>
+
+          </div>
+        </div>
+
+        <!-- <div class="row">
+          <div class="image col-lg-6" style='background-image: url("assets/img/gallery/pYxifE.jpeg");' data-aos="fade-right"></div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-receipt"></i>
@@ -186,66 +228,68 @@
               <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End Features Section -->
+
+    <!-- ======= Cf Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Napište nám a poptejte se</h3>
+          <p> Nezávazně a <span id="special-text">zdarma</span> Vám provedeme nacenění prací.</p>
+          <a class="cta-btn scrollto" href="#contact">Nezávazně poptat</a>
+        </div>
+
+      </div>
+    </section><!-- End Cf Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Check our Services</p>
+          <h2><%= navText.services %></h2>
+          <p>Co pro Vás uděláme</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div class="icon"><i class="bx bxs-binoculars"></i></div>
+              <h4><a href="">Provedení obhlídky</a></h4>
+              <p>Fotografie nám nestačí. Přijedeme osobně a zcela zdarma provedeme obhlídku, abychom zjistili skutečný stav znečištění.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="icon"><i class="bx bx-dollar"></i></div>
+              <h4><a href="">Cenová nabídka</a></h4>
+              <p>Velmi nám pomůžete, pokud od Vás obdržíme technickou dokumentaci. 
+                Na základě té Vám dokážeme nabídnout nejlepší možnou cenu.
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <div class="icon"><i class="bx bxs-stopwatch"></i></div>
+              <h4><a href="">Termín</a></h4>
+              <p>Rozumíme Vaším potřebám co nejméně omezit provoz. Jsme velmi flexibilní a to prakticky 24-7. 
+                Navrhneme časový harmonogram prací tak, aby vyhovoval Vám.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <div class="icon"><i class="bx bxs-hard-hat"></i></div>
+              <h4><a href="">Jde se na věc</a></h4>
+              <p>Teď už je vše domluvené a míč je na naší straně. Takže hurá do práce. 
+                <span id="motto"> Kvalitně, precizně a rychle! </span>
+              </p>
             </div>
           </div>
 
@@ -259,9 +303,11 @@
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h3 id="special-text">Obhlídka zdarma</h3>
+          <p> Pořád váháte?. Třeba Vás přesvědčí naši spokojení klienti.
+            <br> Obhlídku Vám ovšem provedeme zcela <span id="special-text">ZDARMA</span> a bez závazku k další práci.
+          </p>
+          <a class="get-started-btn scrollto" href="#contact">Zadejte poptávku</a>
         </div>
 
       </div>
@@ -272,8 +318,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Check our Portfolio</p>
+          <h2><%= navText.portfolio %></h2>
+          <p>Naše práce</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -291,12 +337,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/gallery/Image00009.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/gallery/Image00009.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -305,12 +351,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/gallery/Image00013.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/gallery/Image00013.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -428,40 +474,25 @@
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
           <div class="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
             <div class="content d-flex flex-column justify-content-center">
-              <h3>Voluptatem dignissimos provident quasi</h3>
+              <h3>Naše práce v číslech</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                Slova jsou mořná mocná zbraň, nýbrž fakta, jsou fakta. Počet zákazníků pro nás není podstatný. 
+                <span id="motto">Počet spokojených zákazníků je pro nás hodnota a směr.</span>
               </p>
               <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
-                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                    <p><strong>Spokojených klientů</strong>, se kterými spolupracujeme již řadu let a kteří se k nám opakovaně vracejí.</p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-clock"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="4" class="purecounter"></span>
-                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-award"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
-                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                    <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="2" class="purecounter" id="purecounter"></span>
+                    <p><strong>Let zkušeností</strong> v oboru a zároveň doba, po kterou poskytujeme pouze ty nejlepší služby.</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +504,7 @@
     </section><!-- End Counts Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -490,7 +521,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -503,7 +534,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -516,7 +547,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -529,7 +560,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -542,13 +573,14 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> -->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -556,7 +588,7 @@
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>Check our Team</p>
+          <p>Kdo se o Vás postará</p>
         </div>
 
         <div class="row">
@@ -564,17 +596,16 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/lk_02.png" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Ladislav Kontúr</h4>
+                <span>Majitel a jednatel firmy</span>
               </div>
             </div>
           </div>
@@ -582,7 +613,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/rk_01.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -591,44 +622,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Radek Kontúr</h4>
+                <span>Hlavní technik</span>
               </div>
             </div>
           </div>
@@ -643,12 +638,12 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
+          <h2><%= navText.contact %></h2>
+          <p>Napište nám</p>
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2556.3939864727126!2d14.087462577490644!3d50.153767808680016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bc82a09d2578d%3A0xd9c8dff9c6a26412!2sNa%20Vyhasl%C3%A9m%203260%2C%20272%2001%20Kladno%201!5e0!3m2!1sen!2scz!4v1719059135169!5m2!1sen!2scz" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <div class="row mt-5">
@@ -657,20 +652,20 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Adresa:</h4>
+                <p>Na vyhaslém 3260, 272 04 Kladno</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>ladislav.kontur@cleanforce1.cz</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>Telefon:</h4>
+                <p>(+420) 605 756 985</p>
               </div>
 
             </div>
@@ -678,32 +673,23 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://api.web3forms.com/submit" method="POST" role="form">
+              <input type="hidden" name="access_key" value="1b699bb7-84bf-4334-82cf-38220066b12c">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" name="email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <textarea name="message" required></textarea>
               </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <!-- <input type="hidden" name="redirect" value="https://web3forms.com/success"> -->
+              <button type="submit">Submit Form</button>
             </form>
-
           </div>
-
         </div>
 
       </div>
@@ -719,36 +705,31 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Gp<span>.</span></h3>
+              <h3 class="logo me-auto me-lg-0"><a href="index.ejs"><img src="/assets/img/Logo4White.png" alt="Logo firmy" class="img-fluid"></a></h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Na vyhaslém 3260 <br>
+                272 04 Kladno<br><br>
+                <strong>Telefon:</strong> (+420) 605 756 985<br>
+                <strong>Email:</strong> ladislav.kontur@cleanforce1.cz<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Odkazy</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"><%= navText.home %></a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"><%= navText.about %></a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"><%= navText.services %></a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Naše služby</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
@@ -758,14 +739,14 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -800,6 +781,15 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    const currentYear = new Date().getFullYear();
+    const startYear = 2008;
+    const yearsPassed = currentYear - startYear;
+    document.getElementById('yearsPassed').textContent = yearsPassed;
+    document.getElementById('purecounter').setAttribute('data-purecounter-end', yearsPassed);
+
+    new PureCounter();
+  </script>
 </body>
 
 </html>
