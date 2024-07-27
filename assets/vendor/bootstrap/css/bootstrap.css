@@ -713,9 +713,8 @@ progress {
 
 .img-fluid-my {
   max-width: 100%;
-  height: auto;
+  height: 0.8em;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .img-thumbnail {
