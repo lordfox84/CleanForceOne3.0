@@ -1037,7 +1037,7 @@ section {
 }
 
 .counts .image {
-  background: url("../img/gallery/car_001.jpeg") center center no-repeat;
+  background: url("../img/gallery/car001.jpeg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
   border-radius: 5px;
@@ -1368,7 +1368,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #51fffd;
+  background: #51fffc;
   border: 0;
   padding: 10px 24px;
   color: #151515;
@@ -1377,7 +1377,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffcd6b;
+  background: #51ff85e0;
 }
 
 @keyframes animate-loading {
